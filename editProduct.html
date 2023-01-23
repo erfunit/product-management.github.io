@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="./FontAwesome.Pro.6.2.1/FontAwesome.Pro.6.2.1/css/all.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+
+<body>
+    <header class="header">
+        <i class="fa-regular fa-arrow-left" id="redToMainPage"></i>
+        <h1 style="display: inline-block;" id="page-title"></h1>
+    </header>
+    <br>
+    <span id="last-edit"></span><br>
+    <main class="container">
+           <input type="text" id="product-title" placeholder="new product title..." class="TitleEdit">
+    <input type="number" id="product-price" placeholder="new product price..." class="PriceEdit"><br />
+    <div class="EditBtns">
+         <button id="save-change">save</button>
+    <button id="removeBtn-editpage" style="background-color: rgba(62, 62, 62, 0.081);color: red;">remove</button>
+    </div>
+   </main>
+ 
+
+    <script src="./scripts/moment.js"></script>
+    <script src="./scripts/jalali-moment.js"></script>
+    <script src="./scripts/function.js"></script>
+    <script src="./scripts/edit-product.js"></script>
+</body>
+
+</html>

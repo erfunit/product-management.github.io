@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="./FontAwesome.Pro.6.2.1/FontAwesome.Pro.6.2.1/css/all.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product managin</title>
+</head>
+
+<body>
+    <div class="modal__backdrop" id="modal">
+    <!-- there is a product with this name -->
+    <div class="alreadyExistModa">
+        <h3 class="alreadyExistModalText">
+            This product is already exist.
+        </h3>
+        <div class="modal_btns">
+           <button class="modal__cancel" id="cancel">
+            cancel
+        </button>
+        <button class="modal__replace" id="replace">
+            replace
+        </button> 
+        </div>
+        
+    </div>
+
+    </div>
+
+
+
+    <header class="header">
+        <i class="fa-solid fa-list-check" ></i>
+        <h1 id="page-title">Product managing</h1>
+    </header>
+    <main class="container">
+        <div class="search">
+            <div class="search1">
+                
+            <input type="text" id="search-place" placeholder="search..." class="searchInp">
+
+            <label class="exist_items">exists
+            <input type="checkbox" id="search-through-exists">
+            </label>
+
+            </div>
+
+        <select id="sort">
+            <option value="byCreated">sort by created</option>
+            <option value="byEdited">sort by edited</option>
+        </select>
+        </div>
+
+    
+
+        <div class="products_container">
+        <h3 class="productSectionTitle">products:</h3>
+        <div id="productsPlace">
+        </div>
+        </div>
+
+                
+        <form id="form">
+
+            <input type="text" name="addProductTextBox" placeholder="add product..." class="prTitle">
+            <input type="number" name="addPriceTextBox" placeholder="add price..." class="prPrice">
+            <label for="is-exist" class="prExist">exist
+            <input type="checkbox" id="is-exist" name="ISexistCheckBox">
+            </label>
+            <button name="submitBtn" class="prAdd">add
+            </button>
+        </form>
+    </main>
+   
+
+    <script src="./scripts/moment.js"></script>
+    <script src="./scripts/jalali-moment.js"></script>
+    <script src="./scripts/uuid.js"></script>
+    <script src="./scripts/function.js"></script>
+    <script src="./scripts/app.js"></script>    
+</body>
+
+</html>
