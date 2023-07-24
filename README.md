@@ -1,16 +1,27 @@
-# product-pms.github.io
-product management web application.
-this product managing web application provides some features to manage products.
-for example:
-1. you can add new products with titles, prices, and existing situations. (at the bottom of the application)
-data will keep in localStorage and will not remove by refresh.
+# Product Management Web Application
 
-2. you can search through added items. (this feature has been created with filter and includes method and it's not case-sensitive).
-and you can see the existing products. at the top of the app.
+Welcome to our Product Management Web Application! It is designed to make the management of products efficient and streamlined. 
 
-3. in the products section you can change the existing situation with the checkbox, you can open the product editing page and change the product's title and price,  and with
-remove the button you can remove it.
+## Features
 
-4. you cannot enter a product with a repetitious title. if you do this, the application will show you a message then you can replace it or cancel the operation.
+### Add New Products
 
-THANKS FOR READING❤️
+You have the ability to add new products with their respective titles, prices, and availability. This feature can be found at the bottom of the application. Rest assured, your data will persist, as it is stored in your browser's localStorage. This means that the data will not be lost when the page is refreshed. 
+
+### Search Products
+
+A built-in search feature allows you to sift through your added products effortlessly. This feature is case-insensitive and is implemented using JavaScript's filter and includes methods. You can view the existing products at the top of the application.
+
+### Modify Products
+
+In the product section, you can update the availability of products using a checkbox. Furthermore, you have the option to open a product editing page, where you can modify the product's title and price. If needed, you also have the option to remove a product completely.
+
+### Duplicate Title Prevention
+
+To avoid confusion, the application prevents you from entering a product with a repetitive title. If you try to do so, the application will alert you with a message, and you will be given the option to replace it or cancel the operation.
+
+## Conclusion
+
+We hope you find this application useful in managing your products efficiently. Feel free to share any feedback or improvements you would like to see in the future.
+
+**Thanks for Reading ❤️**
